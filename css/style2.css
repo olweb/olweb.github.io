@@ -66,7 +66,7 @@ h1{
 	outline: none;
 
 }
-.search input[type="submit"]{
+	.subbutton{
 	background: url(../images/sub-bttn.png);
 	width: 32px;
 	height: 51px;
