@@ -26,21 +26,7 @@ layout: default
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//nulldemy.com/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//nulldemy.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+
    <head>
       <!-- begin google-analytics -->
      <script>
@@ -86,6 +72,24 @@ layout: default
 
        <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
+       
+       <!-- Piwik -->
+
+       <script type="text/javascript">
+         var _paq = _paq || [];
+         _paq.push(['trackPageView']);
+         _paq.push(['enableLinkTracking']);
+         (function() {
+           var u="//nulldemy.com/piwik/";
+           _paq.push(['setTrackerUrl', u+'piwik.php']);
+           _paq.push(['setSiteId', 1]);
+           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+           g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+         })();
+       </script>
+       <noscript><p><img src="//nulldemy.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+
+       <!-- End Piwik Code -->
    </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top">
