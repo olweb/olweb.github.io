@@ -99,6 +99,16 @@ a{
 .red{
   color: #a83f39
 }
+
+.desc{
+  font-size: 60px;
+}
+.desc2{
+  color: #EE3B24;
+  font-size: 30px;
+
+}
+
 .chev{
   position: relative;
   animation-name: in;
@@ -190,6 +200,9 @@ a{
     margin:15px auto 20px;
     text-align:center;
 }
+.post_content{
+  padding-top: 90px;
+}
 .feature_title{
     position:relative;
     padding-bottom:10px;
@@ -234,7 +247,7 @@ a{
 }
 .btn-dark{
     padding: 10px 25px;
-    border-radius: 3px;
+    border-radius: 30px;
     border: medium none;
     vertical-align: middle;
     cursor: pointer;
@@ -2517,9 +2530,6 @@ iframe{
     .video-section {
         padding: 120px 0;
     }
-}
-@media (max-width: $screen-sm-min - 1) {
-//styles for collapsed navbar (which won't show up on iPad portrait)
 }
 
 /*Panel*/
