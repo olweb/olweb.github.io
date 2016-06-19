@@ -21,7 +21,7 @@ body {
   background: #EE3B24;
   background-image: url(/images/meetingbg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 
