@@ -2518,6 +2518,9 @@ iframe{
         padding: 120px 0;
     }
 }
+@media (max-width: $screen-sm-min - 1) {
+//styles for collapsed navbar (which won't show up on iPad portrait)
+}
 
 /*Panel*/
 
