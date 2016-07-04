@@ -138,6 +138,13 @@
 	    height: 100%;
 	    width: 100%;
 	}
+    .hero-content2 {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+    
 	.hero-text{
 		padding-top: 90px;
 	}

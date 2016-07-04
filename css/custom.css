@@ -2432,6 +2432,13 @@ padding: 8px 15px;
     height: 100%;
     width: 100%;
 }
+.hero-content2 {
+    position: relative;
+/*    display: table;*/
+/*    height: 100%;*/
+    width: 100%;
+    margin-bottom: -60px;
+}
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background: transparent;
