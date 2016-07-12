@@ -2439,6 +2439,11 @@ padding: 8px 15px;
     padding-bottom: 0;
 }
 
+#non-hero{
+    font-size: 20px;
+}
+
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background: transparent;
     color: #EE3B24!important;

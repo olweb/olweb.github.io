@@ -25,23 +25,29 @@ Domains, eCommerce, hosting, galleries, analytics, and 24/7 support."
        <div class="parallax-overlay"></div>
            <div class="container">
               <div class="hero-content2">
-                <h3 class="white text-center">
+                <h3 class="white text-center" id="non-hero">
                     <script language="JavaScript">
                         var myDate = new Date();
                         /* hour is before noon */
                         if ( myDate.getHours() < 12 )
                         {
-                            document.write("Good Morning!");
+                            document.write("Good Morning! ");
+                            document.write('<i class="fa fa-sun-o" aria-hidden="true"></i>')
+                            
                         }
                         else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
                         if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 )
                         {
                             document.write("Good Afternoon!");
+                            document.write9('<i class="fa fa-cloud" aria-hidden="true"></i>')
+                            
                         }
                         else  /* the hour is after 5pm, so it is between 6pm and midnight */
                         if ( myDate.getHours() > 17 && myDate.getHours() <= 24 )
                         {
-                            document.write("Good Evening!");
+                            document.write("Good Evening! ");
+                            document.write('<i class="fa fa-moon-o" aria-hidden="true"></i>')
+                            
                         }
                         else  /* the hour is not between 0 and 24, so something is wrong */
                         {
