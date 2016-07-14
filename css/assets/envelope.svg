@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 546 242" version="1.1" preserveAspectRatio="xMinYMid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Envelope" transform="translate(267.525134, 133.122107) rotate(-7.000000) translate(-267.525134, -133.122107) translate(2.025134, 34.622107)" stroke="#000000">
+            <rect id="Rectangle-4" stroke-width="3" fill="#FFFFFF" x="193" y="0" width="338" height="197" rx="6"></rect>
+            <polygon id="Triangle-1" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" fill="#FFFFFF" transform="translate(362.000000, 40.000000) scale(1, -1) translate(-362.000000, -40.000000) " points="362 0 531 80 193 80 "></polygon>
+            <path d="M0,118.43816 L158.311111,99" id="Line" stroke-width="12" stroke-linecap="round"></path>
+            <path d="M49,166.674412 L152.2248,154" id="Line-Copy" stroke-width="12" stroke-linecap="round"></path>
+            <path d="M38,39.0258187 L168.519819,23" id="Line-Copy-2" stroke-width="12" stroke-linecap="round"></path>
+            <path d="M33,74.0258187 L163.519819,58" id="Line-Copy-3" stroke-width="12" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
