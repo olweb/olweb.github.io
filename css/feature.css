@@ -1,0 +1,94 @@
+@font-face{
+    font-family: 'regular';
+    src: url(assets/AvenirNextLTPro-Regular.otf)
+}
+
+@font-face{
+    font-family: 'bold';
+    src: url(assets/AvenirNextLTPro-Bold.otf)
+}
+
+header{
+    background: url(assets/Header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    max-width: 100%
+}
+
+
+
+.logo{
+    display: block;
+    max-height: 55px;
+    max-width: 20%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+h1{
+    padding-top: 5%;
+    font-family: regular;
+    color: white;
+    padding-left: 1%;
+    font-size: 50px;
+}
+
+h2{
+    font-family: regular;
+    color: white;
+    padding: 1%;
+    
+}
+p,ul{
+    font-family: regular;
+    color: #8F8F8F;
+    font-size: 20px;
+}
+
+.insight-server{
+    background: url(assets/server.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 55%;
+    max-width: 55%;    
+    vertical-align: middle;
+    display: block;
+/*    margin-top: 20%;*/
+}
+
+.insight-browser{
+    background: url(assets/browser.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 55%;
+    max-width: 55%;    
+    position: relative;
+    vertical-align: middle;
+/*    margin-top: 20%;*/
+
+}
+
+.insight-mail{
+    background: url(assets/email.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 55%;
+    max-width: 55%;    
+    border-radius: 10%;
+    top: 50%;
+/*    margin-top: 20%;*/
+}
+
+
+
+#article-body{
+    color: #009DE0;
+    text-align: center;
+    font-family: bold;
+    padding-top: 0;
+}
+
+.article-body{
+    padding-bottom: 10%;
+}
