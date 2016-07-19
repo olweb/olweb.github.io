@@ -92,3 +92,24 @@ p,ul{
 .article-body{
     padding-bottom: 10%;
 }
+
+
+@media(max-width: 540px) {
+    
+    h1 {
+        font-size: 12pt;
+    }
+    
+    h2 {
+        font-size: 8pt;
+    }
+    
+    p,ul{
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+}
