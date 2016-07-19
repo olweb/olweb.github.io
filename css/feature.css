@@ -97,18 +97,18 @@ p,ul{
 @media(max-width: 800px) {
     
     h1 {
-        font-size: 12pt;
+        font-size: 14pt;
         padding-top: 0;
 
     }
     
     h2 {
-        font-size: 8pt;
+        font-size: 12pt;
         padding-top: 0;
     }
     
     p,ul{
-        font-size: 10px;
+        font-size: 12px;
     }
     .insight-browser{
         margin: 0 auto;
